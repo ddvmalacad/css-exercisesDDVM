@@ -8,6 +8,15 @@
     font-size: 36px;
 }
 
+.two{
+    font-size: 24px;
+}
+
+.even.two{
+    background-color: rgb(115, 237, 115);
+    font-weight: bold;
+}
+
 /* It isn't entirely important which class or ID values you use, as the focus here is on being able to add the attributes and use the correct selector syntax to style elements. For the colors in this exercise, try using a non-keyword value (RGB, HEX, or HSL). The properties you need to add to each element are:
 
 * **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
