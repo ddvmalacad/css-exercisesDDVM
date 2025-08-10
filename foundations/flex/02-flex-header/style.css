@@ -1,8 +1,10 @@
 .header  {
   font-family: verdana;
   background: papayawhip;
+  align-items: center;
+  justify-content: space-between;
   display: flex;
-  flex: 1 1 0%;
+  padding: 8px;
 }
 
 .logo {
@@ -11,8 +13,6 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  align-self: center;
-  margin: 10px auto;
 }
 
 ul {
@@ -20,6 +20,8 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0px;
+  margin: 0px;
+  gap: 8px;
 }
 
 a {
@@ -30,17 +32,4 @@ a {
   text-decoration: none;
 }
 
-.left-links{
-  margin: 10px;
-  justify-content: start;
-}
 
-.right-links{
-  margin: 10px;
-  justify-content: end;
-}
-
-
-li{
-  margin: 10px;
-}
